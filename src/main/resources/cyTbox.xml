@@ -1,0 +1,1768 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cy/Tbox#"
+     xml:base="http://www.semanticweb.org/cy/Tbox"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cy/Tbox"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Player"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Played -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Played">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Player"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform">
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Platform"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Platform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLEMultiple -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLEMultiple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle2 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle3 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle4">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle5 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle5">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle6 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle6">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle7 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle7">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle8 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle8">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle9 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle9">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Genre -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Genre">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILE -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Platform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILEMulitple -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILEMulitple">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:datatypeComplementOf>
+                                    <rdfs:Datatype>
+                                        <owl:oneOf>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </owl:oneOf>
+                                    </rdfs:Datatype>
+                                </owl:datatypeComplementOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction10 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction10">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction2 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction3 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction4">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction5 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction5">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction6 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction6">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction7 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction7">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction8 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction8">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction9 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleAction9">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory2 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory3 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory4">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory5 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory5">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory6 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStory6">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy2 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy3 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy4">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy5 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy5">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy6 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy6">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Platform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle10 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle10">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle2 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle3 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle4">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle5 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle5">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle6 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle6">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle7 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle7">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle8 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle8">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle9 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle9">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:oneOf>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </owl:oneOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA2 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA3 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA4">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA5 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA5">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA6 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA6">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA7 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA7">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA8 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMA8">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMT -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PMT">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCMulitple"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Platform -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Platform">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILE"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Player -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Player"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Genre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Platform"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Player"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0) https://github.com/owlcs/owlapi/ -->
+
+

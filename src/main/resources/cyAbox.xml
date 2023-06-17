@@ -1,0 +1,1090 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cy/Abox#"
+     xml:base="http://www.semanticweb.org/cy/Abox"
+     xmlns:cy="http://www.semanticweb.org/15295/ontologies/2023/1/cy#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cy/Abox"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GameName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PlayerNumber"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle2 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle5 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle5"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILE -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle1 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle2 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle4 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle6 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle6"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Player -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Player"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES1"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A2"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A2">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A3">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A4">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A5"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A5">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A6"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A6">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A7"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A7">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A8"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A8">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A9"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#A9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#A9"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AA -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AB -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AC -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AD -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AE -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AF -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AG -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AH"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#XBOX"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AH -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AH"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AH -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AH">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AI -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AI"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AI -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AI">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AJ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AJ -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AJ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AJ -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AJ">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AK"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AK -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AK"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#AK -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#AK"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ANDROID -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ANDROID">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BA -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BB"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BB -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BB"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BB -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BB">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BC -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BC -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BC">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BD"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BD -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BD"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BE -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BD -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BD"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BE -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BE">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BF"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BF -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BF -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BF">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BG -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BG"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BG -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BG">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BH"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BH -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BH"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#BH -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#BH"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CA -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CB -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CC -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CE -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CF -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CG -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLESingle2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CH -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CK -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PCSingle6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#CandyCrush -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CandyCrush">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:GameType rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ANDROID"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#IOS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#DOS2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#DOS2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:GameType rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES1"/>
+        <cy:GameType rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#IOS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES1">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES2">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES3">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES4">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES5"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES5">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES6"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES1"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILESingleStrategy"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES7"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES7">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES8"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES8">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES9"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES9"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#GENSHINIMPCAT -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GENSHINIMPCAT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:GameType rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ANDROID"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#IOS"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#IOS -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#IOS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MOBILE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#James -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#James">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Player"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Judy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Judy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Judy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Player"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#LOL -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#LOL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#LOL"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#hasPlatform"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MAC"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MAC -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MAC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#MB2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MB2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:GameType rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PS -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#PUBGM -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PUBGM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ANDROID"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#IOS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#TLOU1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#TLOU1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:hasPlatform rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS"/>
+        <cy:PlayerNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</cy:PlayerNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#TLOU2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#TLOU2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GAMES"/>
+        <cy:GameType rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+        <cy:GameName>The Last of US 2</cy:GameName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15295/ontologies/2023/1/cy#XBOX -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#XBOX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CONSOLE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ANDROID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Action"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#CandyCrush"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#ES"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#GENSHINIMPCAT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#IOS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#LOL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#MAC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#PUBGM"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Story"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#Strategy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#TLOU2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#WINDOWS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/15295/ontologies/2023/1/cy#XBOX"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0) https://github.com/owlcs/owlapi/ -->
+
+

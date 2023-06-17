@@ -1,0 +1,2017 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/15295/ontologies/2023/1/cy"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/15295/ontologies/2023/1/cy">
+    <Prefix name="" IRI="http://www.semanticweb.org/15295/ontologies/2023/1/cy"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/15295/ontologies/2023/1/cy</Import>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLEMultiple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CONSOLESingle9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GAMES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GAMES1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILEMulitple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleAction9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStory1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStory2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStory3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStory4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStory5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStory6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStrategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStrategy1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStrategy2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStrategy3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStrategy4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStrategy5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOBILESingleStrategy6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCMulitple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCSingle9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMA1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMA2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMA3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMA4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMA5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMA6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMA7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMA8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PMT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Player"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Story"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#A"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#B"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GameType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Played"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlatform"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GameName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PlayerNumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANDROID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CandyCrush"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DOS2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ES9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GENSHINIMPCAT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Judy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LOL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MB2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PUBGM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Story"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strategy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TLOU1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TLOU2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WINDOWS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XBOX"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle1"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle3"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle4"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle5"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle6"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle7"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle8"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CONSOLESingle9"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#CONSOLE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Genre"/>
+        <ObjectUnionOf>
+            <Class IRI="#Action"/>
+            <Class IRI="#Story"/>
+            <Class IRI="#Strategy"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILEMulitple"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#MOBILE"/>
+            </ObjectMinCardinality>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataComplementOf>
+                    <DataOneOf>
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                    </DataOneOf>
+                </DataComplementOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingle"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#MOBILE"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction1"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction10"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction3"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction4"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction5"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction6"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction7"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction8"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleAction9"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStory"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Story"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStory1"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Story"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStory2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Story"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStory3"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Story"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStory4"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Story"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStory5"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Story"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStory6"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Story"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStrategy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Strategy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStrategy1"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Strategy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStrategy2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Strategy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStrategy3"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Strategy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStrategy4"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Strategy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStrategy5"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Strategy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MOBILESingleStrategy6"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MOBILESingle"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Strategy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCMulitple"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle1"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle10"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle3"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle4"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle5"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle6"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle7"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle8"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCSingle9"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GAMES"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPlatform"/>
+                <Class IRI="#PC"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#PlayerNumber"/>
+                <DataOneOf>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </DataOneOf>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMA"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMA1"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMA2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMA3"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMA4"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMA5"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMA6"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMA7"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMA8"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Action"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PMT"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PCMulitple"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GameType"/>
+                <Class IRI="#Story"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Platform"/>
+        <ObjectUnionOf>
+            <Class IRI="#CONSOLE"/>
+            <Class IRI="#MOBILE"/>
+            <Class IRI="#PC"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLE"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLEMultiple"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle1"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle2"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle3"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle4"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle5"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle6"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle7"/>
+        <Class IRI="#CONSOLESingle6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle8"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CONSOLESingle9"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILE"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction1"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction10"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction2"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction3"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction4"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction5"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction6"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction7"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction8"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleAction9"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStory"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStory1"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStory2"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStory3"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStory4"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStory5"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStory6"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStrategy"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStrategy1"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStrategy2"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStrategy3"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStrategy4"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStrategy5"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOBILESingleStrategy6"/>
+        <Class IRI="#MOBILESingle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PC"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCMulitple"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle1"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle10"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle2"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle3"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle4"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle5"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle6"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle7"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle8"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCSingle9"/>
+        <Class IRI="#GAMES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMA"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMA1"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMA2"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMA3"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMA4"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMA5"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMA6"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMA7"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMA8"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PMT"/>
+        <Class IRI="#PCMulitple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Story"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategy"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#GAMES"/>
+        <Class IRI="#Genre"/>
+        <Class IRI="#Platform"/>
+        <Class IRI="#Player"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#GAMES1"/>
+        <NamedIndividual IRI="#A1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#AA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#AB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#AC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#AD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#AE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#AF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#AG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MOBILE"/>
+        <NamedIndividual IRI="#ANDROID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#Action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#BA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CONSOLESingle5"/>
+        <NamedIndividual IRI="#CA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CONSOLESingle2"/>
+        <NamedIndividual IRI="#CB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CONSOLESingle1"/>
+        <NamedIndividual IRI="#CC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PCSingle4"/>
+        <NamedIndividual IRI="#CE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PCSingle2"/>
+        <NamedIndividual IRI="#CF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CONSOLESingle2"/>
+        <NamedIndividual IRI="#CG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PCSingle1"/>
+        <NamedIndividual IRI="#CH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PCSingle6"/>
+        <NamedIndividual IRI="#CK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#CandyCrush"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#DOS2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#ES"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES1"/>
+        <NamedIndividual IRI="#ES6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MOBILESingleStrategy"/>
+        <NamedIndividual IRI="#ES6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#GENSHINIMPCAT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MOBILE"/>
+        <NamedIndividual IRI="#IOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#James"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Judy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#LOL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#WINDOWS"/>
+            </ObjectOneOf>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#LOL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PC"/>
+        <NamedIndividual IRI="#MAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#MB2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CONSOLE"/>
+        <NamedIndividual IRI="#PS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#PUBGM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Story"/>
+        <NamedIndividual IRI="#Story"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategy"/>
+        <NamedIndividual IRI="#Strategy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#TLOU1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GAMES"/>
+        <NamedIndividual IRI="#TLOU2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PC"/>
+        <NamedIndividual IRI="#WINDOWS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CONSOLE"/>
+        <NamedIndividual IRI="#XBOX"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#A2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#Action"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#A2"/>
+        <NamedIndividual IRI="#A3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#A4"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#A4"/>
+        <NamedIndividual IRI="#A5"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#A5"/>
+        <NamedIndividual IRI="#A6"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#A6"/>
+        <NamedIndividual IRI="#A7"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#A7"/>
+        <NamedIndividual IRI="#A8"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#A8"/>
+        <NamedIndividual IRI="#A9"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#AG"/>
+        <NamedIndividual IRI="#AH"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#AH"/>
+        <NamedIndividual IRI="#AI"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#AI"/>
+        <NamedIndividual IRI="#AJ"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#AJ"/>
+        <NamedIndividual IRI="#AK"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#BA"/>
+        <NamedIndividual IRI="#BB"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#BB"/>
+        <NamedIndividual IRI="#BC"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#BC"/>
+        <NamedIndividual IRI="#BD"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#BC"/>
+        <NamedIndividual IRI="#BE"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#BE"/>
+        <NamedIndividual IRI="#BF"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#BF"/>
+        <NamedIndividual IRI="#BG"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#BG"/>
+        <NamedIndividual IRI="#BH"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ES"/>
+        <NamedIndividual IRI="#ES1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ES1"/>
+        <NamedIndividual IRI="#ES2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ES2"/>
+        <NamedIndividual IRI="#ES3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ES3"/>
+        <NamedIndividual IRI="#ES4"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ES4"/>
+        <NamedIndividual IRI="#ES5"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ES5"/>
+        <NamedIndividual IRI="#ES6"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ES6"/>
+        <NamedIndividual IRI="#ES7"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ES7"/>
+        <NamedIndividual IRI="#ES8"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ES8"/>
+        <NamedIndividual IRI="#ES9"/>
+    </SameIndividual>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#ANDROID"/>
+        <NamedIndividual IRI="#Action"/>
+        <NamedIndividual IRI="#CandyCrush"/>
+        <NamedIndividual IRI="#ES"/>
+        <NamedIndividual IRI="#GENSHINIMPCAT"/>
+        <NamedIndividual IRI="#IOS"/>
+        <NamedIndividual IRI="#LOL"/>
+        <NamedIndividual IRI="#MAC"/>
+        <NamedIndividual IRI="#PS"/>
+        <NamedIndividual IRI="#PUBGM"/>
+        <NamedIndividual IRI="#Story"/>
+        <NamedIndividual IRI="#Strategy"/>
+        <NamedIndividual IRI="#TLOU2"/>
+        <NamedIndividual IRI="#WINDOWS"/>
+        <NamedIndividual IRI="#XBOX"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#James"/>
+        <NamedIndividual IRI="#Judy"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#AA"/>
+        <NamedIndividual IRI="#WINDOWS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#AG"/>
+        <NamedIndividual IRI="#XBOX"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#BA"/>
+        <NamedIndividual IRI="#PS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GameType"/>
+        <NamedIndividual IRI="#CandyCrush"/>
+        <NamedIndividual IRI="#Strategy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#CandyCrush"/>
+        <NamedIndividual IRI="#ANDROID"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#CandyCrush"/>
+        <NamedIndividual IRI="#IOS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GameType"/>
+        <NamedIndividual IRI="#DOS2"/>
+        <NamedIndividual IRI="#Story"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#DOS2"/>
+        <NamedIndividual IRI="#WINDOWS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GameType"/>
+        <NamedIndividual IRI="#ES"/>
+        <NamedIndividual IRI="#Story"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#ES"/>
+        <NamedIndividual IRI="#IOS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GameType"/>
+        <NamedIndividual IRI="#GENSHINIMPCAT"/>
+        <NamedIndividual IRI="#Action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#GENSHINIMPCAT"/>
+        <NamedIndividual IRI="#ANDROID"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#GENSHINIMPCAT"/>
+        <NamedIndividual IRI="#IOS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#GENSHINIMPCAT"/>
+        <NamedIndividual IRI="#WINDOWS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#LOL"/>
+        <NamedIndividual IRI="#WINDOWS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GameType"/>
+        <NamedIndividual IRI="#MB2"/>
+        <NamedIndividual IRI="#Action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#MB2"/>
+        <NamedIndividual IRI="#WINDOWS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#PUBGM"/>
+        <NamedIndividual IRI="#ANDROID"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#PUBGM"/>
+        <NamedIndividual IRI="#IOS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#TLOU1"/>
+        <NamedIndividual IRI="#WINDOWS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GameType"/>
+        <NamedIndividual IRI="#TLOU2"/>
+        <NamedIndividual IRI="#Story"/>
+    </ObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <NamedIndividual IRI="#LOL"/>
+        <NamedIndividual IRI="#MAC"/>
+    </NegativeObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#AA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#AB"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#AC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#AD"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#AE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#AF"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#AG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#BA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#CandyCrush"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#DOS2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#ES"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#GENSHINIMPCAT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#LOL"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#MB2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#PUBGM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PlayerNumber"/>
+        <NamedIndividual IRI="#TLOU1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GameName"/>
+        <NamedIndividual IRI="#TLOU2"/>
+        <Literal>The Last of US 2</Literal>
+    </DataPropertyAssertion>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#A"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#B"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#A"/>
+        <Class IRI="#GAMES"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GameType"/>
+        <Class IRI="#GAMES"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Played"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#A"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GameType"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Played"/>
+        <Class IRI="#GAMES"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Platform"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GameName"/>
+        <Class IRI="#GAMES"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PlayerNumber"/>
+        <Class IRI="#GAMES"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#GameName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PlayerNumber"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
